@@ -39,9 +39,11 @@ const Hero = (props: any) =>
           fingerstache pitchfork.
         </p>
         <div className="flex justify-center">
+          <Link href={'#contact'}> 
           <button className="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
-            Button
+            Contact
           </button>
+          </Link>
           
         </div>
       </div>
