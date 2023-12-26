@@ -14,7 +14,7 @@ const Footer = () =>
       <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <Image src={require('../../../public/Assets/Images/logo.jpg')} alt="Arsalan Online Academy" height={100} width={100} className='w-10 rounded-full'/>    
         
-        <span className="ml-3 text-xl">M ARSALAN AKHTAR</span>
+        <span className="ml-3 text-xl">ARSALAN ONLINE ACADEMY</span>
       </a>
       <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
         © 2023 — ARSALAN
@@ -29,16 +29,16 @@ const Footer = () =>
       </p>
       <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
         <Link href="#" target="_blank" className="text-gray-500 px-2">
-        <FaLinkedin className='text-3xl hover:text-[#0A66C2]'  />
+        <FaLinkedin className='text-3xl hover:text-yellow-400'  />
         </Link>
         <Link href="#" target="_blank" className="text-gray-500 px-2">
-        <FaGithub className='text-3xl hover:text-[#0A66C2]'  />
+        <FaGithub className='text-3xl hover:text-yellow-400'  />
         </Link>
         <Link href="https://twitter.com/arsalanakkhter" target="_blank" className="text-gray-500 px-2">
-        <FaSquareXTwitter className='text-3xl hover:text-[#0A66C2]'  />
+        <FaSquareXTwitter className='text-3xl hover:text-yellow-400'  />
         </Link>
         <Link href="#" target="_blank" className="text-gray-500 px-2">
-        <FaYoutube className='text-3xl hover:text-[#0A66C2] '  />
+        <FaYoutube className='text-3xl hover:text-yellow-400'/>
         </Link>
      
         </span>
